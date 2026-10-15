@@ -1,0 +1,281 @@
+.title {
+    text-align: center;
+    color: white;
+}
+
+.main {
+    width: 100%;
+    background: 
+        linear-gradient(to top, rgba(0,0,0,0.5) 50%, rgba(0,0,0,0.5) 50%),
+        url("eee.png");
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+.navbar {
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+}
+.icon {
+    width:300px;
+    float: left;
+    height: 70px;
+}
+.logo {
+    color: #ff7200;
+    font-size: 35px;
+    font-family: arial;
+    padding-left:15px;
+    float: left;
+    padding-top: 10px;
+}
+.menu {
+    float: right;
+    width: 800px;
+    display: flex;   
+}
+
+ul {
+    float: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul li {
+    list-style: none;
+    margin-left: 40px;
+    margin-top: 27px;
+    font-size: 14px;
+
+}
+ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-family: arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+    
+}
+ul li a:hover {
+    color:#ff7200;
+    cursor: pointer;
+}
+.cont {
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    color: #fff;
+    position: relative
+    
+}
+.cont .para {
+    padding-left: 20px;
+    padding-bottom: 25px;
+    font-family: arial;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+    font-size: 15px;
+}
+.cont h1 {
+    font-family: "Times New  Roman";
+    font-size: 50px;
+    margin-top: 10%;
+    letter-spacing: 2px;
+
+
+
+}
+.cont span {
+    color: #ff7200;
+}
+.cont .learn {
+    width: 160px;
+    height: 40px;
+    background: #ff7200;
+    border: none;
+    margin-bottom: 10x;
+    margin-left: 20px;
+    border-radius: 10px;
+    font-size: 18px;
+    cursor: pointer;
+}
+.cont .learn a {
+    text-decoration: none;
+    color: black;
+    transition: 0.4s ease-in-out;
+
+}
+.learn:hover {
+    background-color: #fff;
+}
+
+/* Reset some default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Page background */
+/*body {
+    min-height: 100vh;
+    background: linear-gradient(135deg, #4facfe, #00f2fe);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}*/
+
+/* Main container */
+.container {
+    background: #ffffff;
+    width: 100%;
+    max-width: 420px;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+
+/* Heading */
+.container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Form inputs */
+.container input,
+.container textarea {
+    width: 100%;
+    padding: 12px 14px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 15px;
+    transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+/* Textarea */
+.container textarea {
+    resize: none;
+    height: 120px;
+}
+
+/* Focus effect */
+.container input:focus,
+.container textarea:focus {
+    outline: none;
+    border-color: #4facfe;
+    box-shadow: 0 0 5px rgba(79, 172, 254, 0.4);
+}
+
+/* Button */
+.container button {
+    width: 100%;
+    padding: 12px;
+    background: #4facfe;
+    color: #fff;
+    font-size: 16px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.2s;
+}
+
+/* Button hover */
+.container button:hover {
+    background: #008cdd;
+    transform: translateY(-2px);
+}
+
+/* Success message */
+.container p {
+    margin-top: 15px;
+    text-align: center;
+    font-weight: bold;
+}
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Page background */
+
+/* Main container */
+.container {
+    max-width: 1200px;
+    margin: auto;
+}
+
+/* Heading */
+.container h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 32px;
+    color: #222;
+}
+
+/* Grid layout */
+.room-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 25px;
+}
+
+/* Room card */
+.room-card {
+    background: #fff;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Hover effect */
+.room-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 18px 35px rgba(0,0,0,0.15);
+}
+
+/* Room image */
+.room-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+/* Room title */
+.room-card h3 {
+    padding: 15px;
+    font-size: 20px;
+    color: #333;
+}
+
+/* Price text */
+.room-card .price {
+    padding: 0 15px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #0077b6;
+}
+
+/* Responsive text */
+@media (max-width: 600px) {
+    .container h2 {
+        font-size: 26px;
+    }
+}
+
+<div class="cont">
+            <h1>Web Design & <br> <span>Development</span><br>Cousrse</h1>
+            <p class="para">A static variable is defined inside a function but retains its value between function calls.<br>
+                Unlike a local variable, it doesn't get destroyed when the function ends.</p>
+                <button class="learn"><a href="#">Startnow</a> </button>
+        </div>
+     
+   <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+    <style>   
